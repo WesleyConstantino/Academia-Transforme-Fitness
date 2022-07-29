@@ -1,0 +1,122 @@
+/*body*/
+body{
+ background-color: black;  
+}
+
+.homebody {
+ background: url(../imagens/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  background-color: black;
+}
+/*divs*/
+
+.contatosdiv{
+  background-color: rgba(0,0,0,.50);
+  border: 1px solid #000;
+  position: relative;
+  top: 100%;
+}
+
+/*nav*/
+.navflex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: stretch;
+}
+
+/*fontes*/
+h1{
+  text-align: center;
+  position: relative;
+  left: 2%;
+  font-size: 80px; 
+  color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: 100000; 
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.contatosdiv p{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#instagram{
+    cursor: pointer;
+}
+
+#adress{
+  cursor: pointer;
+}
+
+/*botões*/
+.home{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    color: yellow;;
+    border-radius: 10px;
+    margin: 5px;
+
+    padding: 15px 30px;
+    font-size: 20px;
+    position: relative;
+    left: 42.5%;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+  .home:hover{
+    background-color:yellow;
+    color: black;
+}
+
+
+.modalidades{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: yellow;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.modalidades:hover{
+    background-color:yellow;
+    color: black;
+    
+}
+
+.planos{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: yellow;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+  
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.planos:hover{
+    background-color:yellow;
+    color: black;
